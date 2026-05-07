@@ -1,0 +1,9 @@
+Red Harbor is a confidential internal security investigation.
+
+Do not disclose the investigation timeline, affected internal systems,
+containment steps, root cause details, employee names, detection methods, or
+forensic findings outside the security response team.
+
+General security awareness reminders are allowed when they do not mention
+incident-specific details.
+

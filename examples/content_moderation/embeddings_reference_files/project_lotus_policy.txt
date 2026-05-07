@@ -1,0 +1,9 @@
+Project Lotus is a confidential onboarding automation product.
+
+Do not disclose Project Lotus launch timing, private beta customer names,
+banking customer references, unreleased feature details, internal roadmap dates,
+or go-to-market plans outside approved internal channels.
+
+Public communication may describe generic onboarding automation benefits only
+after the communications team approves the wording.
+

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Confidential launch leak",
+    "pattern": "\\b(Project Lotus|Lotus launch|private beta customer|launch date)\\b",
+    "explanation": "Flags references to a fictional confidential launch plan.",
+    "case_sensitive": false
+  },
+  {
+    "name": "Internal financial forecast",
+    "pattern": "\\b(revenue target|margin forecast|unreleased earnings|quarterly forecast)\\b",
+    "explanation": "Flags fictional internal financial disclosure terms.",
+    "case_sensitive": false
+  },
+  {
+    "name": "Security incident details",
+    "pattern": "\\b(Red Harbor|containment timeline|affected internal systems|incident root cause)\\b",
+    "explanation": "Flags fictional internal security incident details.",
+    "case_sensitive": false
+  }
+]
+

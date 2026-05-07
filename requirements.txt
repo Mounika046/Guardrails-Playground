@@ -1,0 +1,10 @@
+# App UI
+streamlit
+
+# Configuration
+python-dotenv
+
+# OCI integrations
+oci
+oci-openai
+openai

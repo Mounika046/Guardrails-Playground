@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Developer instruction extraction",
+    "pattern": "\\b(show|reveal|print|repeat)\\b.{0,80}\\b(developer instructions|hidden developer message)\\b",
+    "explanation": "Flags attempts to extract developer-level instructions.",
+    "case_sensitive": false
+  },
+  {
+    "name": "Tool result exfiltration",
+    "pattern": "\\b(send|exfiltrate|copy)\\b.{0,80}\\b(tool results|raw tool output|private tool data)\\b",
+    "explanation": "Flags attempts to misuse or leak tool output.",
+    "case_sensitive": false
+  },
+  {
+    "name": "Policy override phrase",
+    "pattern": "\\b(you are no longer bound|safety rules are disabled|ignore the guardrails)\\b",
+    "explanation": "Flags direct attempts to disable policy behavior.",
+    "case_sensitive": false
+  }
+]
+

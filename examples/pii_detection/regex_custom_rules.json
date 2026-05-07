@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Employee ID",
+    "pattern": "\\bEMP-[0-9]{5}\\b",
+    "explanation": "Detects fictional employee IDs such as EMP-48291.",
+    "case_sensitive": false
+  },
+  {
+    "name": "Customer account ID",
+    "pattern": "\\bACCT-[A-Z]{3}-[0-9]{4}\\b",
+    "explanation": "Detects fictional customer account IDs such as ACCT-DEL-7842.",
+    "case_sensitive": false
+  },
+  {
+    "name": "Support ticket with private prefix",
+    "pattern": "\\bPRIV-[0-9]{6}\\b",
+    "explanation": "Detects fictional private support ticket IDs.",
+    "case_sensitive": false
+  }
+]
+

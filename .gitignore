@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local configuration
+.env
+.env.*
+!.env.example
+
+# Streamlit and local runtime files
+.streamlit/secrets.toml
+
+# Local playground state
+data/custom_regex_rules.json
+data/vector_store_files.json
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
